@@ -1,8 +1,8 @@
 
-/* Import Font (this must go at the VERY top of the CSS file!) */
+
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 
-/* Base Colors */
+
 :root {
   --navy: #001f3f;
   --dark-yellow: #d4af37;
@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
+
 body {
   background-color: var(--white);
   color: #000;
@@ -21,7 +21,7 @@ body {
 }
 
 
-/* Navbar */
+
 .bg-darkblue {
   background-color: var(--navy) !important;
 }
@@ -58,7 +58,7 @@ body {
 
 
 
-/* Hover & Active Styles */
+
 .nav-link {
   color: var(--white) !important;
   transition: color 0.3s, border-bottom 0.3s;
@@ -74,16 +74,16 @@ body {
   font-weight: bold;
   
 }
-/* keyboard focus */
+
 a:focus, button:focus {
   outline: 3px solid var(--dark-yellow);
   outline-offset: 2px;
 }
 
-/* Skip to main */
+
 .skip-link {
   position: absolute;
-  top: -40px;      /* Hide above viewport */
+  top: -40px;      
   left: 10px;
   background: var(--dark-yellow);
   color: var(--navy);
@@ -96,14 +96,14 @@ a:focus, button:focus {
   font-family: 'Rajdhani', sans-serif;
 }
 
-/* When focused, slide it down to visible */
+
 .skip-link:focus {
   top: 10px;
   outline: 2px solid var(--navy);
 }
 
 
-/* Back to top */
+
 .footer-button {
   text-align: center;
   margin: 20px 0 10px;
@@ -125,14 +125,14 @@ a:focus, button:focus {
 
 .top-button:hover,
 .top-button:focus {
-  background-color: #b08c20; /* darker shade */
+  background-color: #b08c20; 
   color: #fff;
   text-decoration: none;
   outline: none;
 }
 
 
-/* Hero Section */
+
 .hero-section {
   background-image: url("https://images.pexels.com/photos/17539749/pexels-photo-17539749.jpeg");
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ a:focus, button:focus {
 }
 
 
-/* Carousel */
+
 .carousel-item img {
   height: 550px;
   object-fit: cover;
@@ -164,33 +164,33 @@ a:focus, button:focus {
 
 
 
-/* History Page Headings */
+
 .history-page h1,
 .history-page h2 {
   color: var(--navy);
 }
 
-/* Paragraphs */
+
 .history-page p {
   font-size: 1.1rem;
   line-height: 1.6;
 }
 
-/* Initial hidden state */
+
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-/* When .visible is added by JavaScript */
+
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
 
-/* footer area */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -207,14 +207,14 @@ main {
 }
 
 footer {
-  background-color: #0a1d3b;  /* navy blue */
+  background-color: #0a1d3b;  
   color: #fff;
   text-align: center;
   padding: 20px 10px;
 }
 
 
-/* Gallery */
+
 .gallery-mb {
   position: relative;
   overflow: hidden;
@@ -239,7 +239,7 @@ footer {
 .gallery-mb .caption {
   position: absolute;
   bottom: 0;
-  background: rgba(0, 31, 63, 0.75); /* navy with opacity */
+  background: rgba(0, 31, 63, 0.75); 
   color: #fff;
   width: 100%;
   text-align: center;
@@ -256,7 +256,7 @@ footer {
   transform: translateY(0);
 }
 
-/* facts */
+
 .custom-accordion .accordion-item {
   border: 1px solid var(--navy);
   border-radius: 5px;
@@ -339,7 +339,7 @@ footer {
   object-fit: cover;
 }
 
-/* Responsive Heights */
+
 
 @media (max-width: 767px) {
   .hero-section .container {
